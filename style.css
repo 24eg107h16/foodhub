@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+nav {
+    background-color: black;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#catalogue {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 200px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.card img {
+    width: 200px;
+    height: 150px;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
